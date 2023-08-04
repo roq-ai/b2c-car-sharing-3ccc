@@ -1,0 +1,812 @@
+[
+  {
+    "car": [
+      {
+        "id": "13f3392e-a2a8-4362-984d-637a7e29ca80",
+        "status": "Available",
+        "created_at": "2023-08-03T13:47:44.561Z",
+        "updated_at": "2023-08-03T23:34:56.759Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "97427c51-c717-4687-8cf4-e68df737ac18",
+        "status": "Booked",
+        "created_at": "2023-08-03T23:23:15.352Z",
+        "updated_at": "2023-08-03T17:03:01.615Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "52ef8b67-3421-4b24-9487-2cf62984eff0",
+        "status": "In Service",
+        "created_at": "2023-08-03T14:16:54.249Z",
+        "updated_at": "2023-08-03T13:38:59.685Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8231e429-e00f-4d47-b629-132a1be17ccd",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-04T04:50:42.945Z",
+        "updated_at": "2023-08-03T19:45:52.355Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "42ce6389-3831-400f-ab05-be0765f030d3",
+        "status": "Out of Service",
+        "created_at": "2023-08-04T00:56:54.162Z",
+        "updated_at": "2023-08-03T20:46:05.039Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "a6bce14c-b07e-4a4f-8923-779c815019b1",
+        "status": "Confirmed",
+        "created_at": "2023-08-03T19:02:16.619Z",
+        "updated_at": "2023-08-03T17:09:12.398Z",
+        "car_id": "13f3392e-a2a8-4362-984d-637a7e29ca80",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "827acd79-791e-4134-a1d9-8004d63e17a0",
+        "status": "Pending",
+        "created_at": "2023-08-03T15:11:19.172Z",
+        "updated_at": "2023-08-04T04:37:13.762Z",
+        "car_id": "52ef8b67-3421-4b24-9487-2cf62984eff0",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "72624544-2678-4a35-b21f-5cf0a55a2906",
+        "status": "Cancelled",
+        "created_at": "2023-08-04T11:19:26.902Z",
+        "updated_at": "2023-08-03T20:07:52.180Z",
+        "car_id": "8231e429-e00f-4d47-b629-132a1be17ccd",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "33a401a2-6f11-4529-8c17-d94985826d98",
+        "status": "Completed",
+        "created_at": "2023-08-03T20:23:42.387Z",
+        "updated_at": "2023-08-03T20:23:47.417Z",
+        "car_id": "8231e429-e00f-4d47-b629-132a1be17ccd",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "47519635-5ee2-4c74-9f55-50ec3f0fe915",
+        "status": "On Hold",
+        "created_at": "2023-08-04T06:53:46.735Z",
+        "updated_at": "2023-08-03T20:54:47.279Z",
+        "car_id": "42ce6389-3831-400f-ab05-be0765f030d3",
+        "guest_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "ada8a90f-cf05-495e-affd-e6131d598999",
+        "status": "Available",
+        "created_at": "2023-08-03T19:41:58.513Z",
+        "updated_at": "2023-08-03T20:35:53.481Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ba07742f-5c3c-4141-a507-d1ce45dbd6cb",
+        "status": "Booked",
+        "created_at": "2023-08-04T02:20:04.502Z",
+        "updated_at": "2023-08-04T05:31:11.896Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e6dc1f66-b7a1-4db0-ad33-e315bd712731",
+        "status": "In Repair",
+        "created_at": "2023-08-03T18:45:47.397Z",
+        "updated_at": "2023-08-03T13:15:32.175Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9535991c-542d-4fdf-9f3b-493544fd72bf",
+        "status": "Out of Service",
+        "created_at": "2023-08-03T13:37:01.867Z",
+        "updated_at": "2023-08-03T12:13:51.135Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "45502d54-3d3f-44f5-aaaf-8b2abadde88f",
+        "status": "Reserved",
+        "created_at": "2023-08-04T03:55:13.465Z",
+        "updated_at": "2023-08-04T02:39:56.468Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "f799a57b-6e97-4206-8d4d-c7a8395917ac",
+        "status": "Confirmed",
+        "created_at": "2023-08-03T13:07:09.425Z",
+        "updated_at": "2023-08-03T17:21:12.072Z",
+        "car_id": "e6dc1f66-b7a1-4db0-ad33-e315bd712731",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "daea53a8-e53a-45b4-8a96-cb21808fa068",
+        "status": "Pending",
+        "created_at": "2023-08-03T17:26:43.409Z",
+        "updated_at": "2023-08-03T18:25:54.964Z",
+        "car_id": "45502d54-3d3f-44f5-aaaf-8b2abadde88f",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "d437af4e-842d-4559-aeda-60864b3d1ed5",
+        "status": "Cancelled",
+        "created_at": "2023-08-04T01:20:54.352Z",
+        "updated_at": "2023-08-04T00:12:25.264Z",
+        "car_id": "e6dc1f66-b7a1-4db0-ad33-e315bd712731",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "2323d4b1-cb25-4f69-a668-2fe4fb29a691",
+        "status": "Completed",
+        "created_at": "2023-08-04T11:28:48.438Z",
+        "updated_at": "2023-08-04T02:34:24.503Z",
+        "car_id": "9535991c-542d-4fdf-9f3b-493544fd72bf",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "1956c465-3c83-4f60-bbf8-4784455fbc72",
+        "status": "On Hold",
+        "created_at": "2023-08-04T00:25:52.722Z",
+        "updated_at": "2023-08-03T14:21:00.507Z",
+        "car_id": "9535991c-542d-4fdf-9f3b-493544fd72bf",
+        "guest_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "d9904275-1bea-446e-a839-bae7cb801617",
+        "status": "Available",
+        "created_at": "2023-08-04T00:12:07.844Z",
+        "updated_at": "2023-08-03T13:14:26.071Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8634447e-41a5-4b82-9631-cce077bf9ea2",
+        "status": "Booked",
+        "created_at": "2023-08-04T00:02:51.506Z",
+        "updated_at": "2023-08-03T16:46:30.108Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "86436828-7445-4b71-ae7d-748261ca2683",
+        "status": "In Service",
+        "created_at": "2023-08-04T01:26:26.269Z",
+        "updated_at": "2023-08-03T12:40:42.296Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7a9ec662-1f45-49d9-895f-3e2a04e8ad4b",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T22:28:50.397Z",
+        "updated_at": "2023-08-04T04:23:48.453Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e3a0df48-b154-47fa-9831-9f72fa40bd21",
+        "status": "Out of Service",
+        "created_at": "2023-08-03T20:43:16.200Z",
+        "updated_at": "2023-08-04T08:47:39.087Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "847a2f8d-eabf-4042-ae2b-5433dfa21a2a",
+        "status": "Confirmed",
+        "created_at": "2023-08-04T11:34:22.248Z",
+        "updated_at": "2023-08-04T03:20:30.567Z",
+        "car_id": "7a9ec662-1f45-49d9-895f-3e2a04e8ad4b",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "c6d51af1-3c46-4661-b879-61b88c05fc62",
+        "status": "Pending",
+        "created_at": "2023-08-03T18:26:25.846Z",
+        "updated_at": "2023-08-03T12:20:16.661Z",
+        "car_id": "86436828-7445-4b71-ae7d-748261ca2683",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "34c7944d-54ab-4758-bbe7-1aaabaf6789f",
+        "status": "Cancelled",
+        "created_at": "2023-08-04T04:01:15.619Z",
+        "updated_at": "2023-08-03T18:11:17.504Z",
+        "car_id": "d9904275-1bea-446e-a839-bae7cb801617",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "175fb2fa-7205-42eb-bdbe-5d3b6baf54ad",
+        "status": "Completed",
+        "created_at": "2023-08-04T05:59:52.478Z",
+        "updated_at": "2023-08-04T06:45:08.134Z",
+        "car_id": "8634447e-41a5-4b82-9631-cce077bf9ea2",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "785356b3-6ec2-4d7a-b15e-6ff0a074f368",
+        "status": "On Hold",
+        "created_at": "2023-08-03T22:42:42.762Z",
+        "updated_at": "2023-08-04T07:56:11.868Z",
+        "car_id": "86436828-7445-4b71-ae7d-748261ca2683",
+        "guest_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "e060288a-3f3b-49c0-90bd-ddaccff9a7bd",
+        "status": "Available",
+        "created_at": "2023-08-03T15:54:18.965Z",
+        "updated_at": "2023-08-03T19:45:33.620Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "659ae235-b73e-424f-b2b9-aa3432a48278",
+        "status": "Booked",
+        "created_at": "2023-08-04T00:02:37.368Z",
+        "updated_at": "2023-08-03T21:51:23.058Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "daf4bded-08e3-4c01-b6b2-07a77366c3ad",
+        "status": "In Service",
+        "created_at": "2023-08-04T01:40:04.696Z",
+        "updated_at": "2023-08-03T19:48:09.728Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "30e1106c-dd1f-4a69-a184-42567226228c",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T18:39:07.167Z",
+        "updated_at": "2023-08-04T04:16:03.567Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6de19d1d-87f4-4bec-a813-e5f7f34c1ed4",
+        "status": "Out of Service",
+        "created_at": "2023-08-04T02:58:19.986Z",
+        "updated_at": "2023-08-04T05:45:12.243Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "eab5eb43-d8ee-4168-bbe5-0c71bd94f448",
+        "status": "Confirmed",
+        "created_at": "2023-08-03T17:43:09.922Z",
+        "updated_at": "2023-08-03T15:15:16.526Z",
+        "car_id": "30e1106c-dd1f-4a69-a184-42567226228c",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "f7b49bc4-886b-4ced-abdd-3a760ca6a064",
+        "status": "Pending",
+        "created_at": "2023-08-03T20:18:16.040Z",
+        "updated_at": "2023-08-03T17:13:18.199Z",
+        "car_id": "6de19d1d-87f4-4bec-a813-e5f7f34c1ed4",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "cf5ecb4e-9384-4104-bf80-2f3927cb01e3",
+        "status": "Cancelled",
+        "created_at": "2023-08-04T03:39:23.443Z",
+        "updated_at": "2023-08-03T16:16:59.024Z",
+        "car_id": "daf4bded-08e3-4c01-b6b2-07a77366c3ad",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "0aef5447-d599-4042-8a51-f02daa61a598",
+        "status": "Completed",
+        "created_at": "2023-08-04T01:06:05.912Z",
+        "updated_at": "2023-08-03T19:53:19.113Z",
+        "car_id": "6de19d1d-87f4-4bec-a813-e5f7f34c1ed4",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "c75ba89e-9959-4da9-9b99-ad35d267964a",
+        "status": "On Hold",
+        "created_at": "2023-08-04T11:35:16.591Z",
+        "updated_at": "2023-08-03T22:57:31.502Z",
+        "car_id": "e060288a-3f3b-49c0-90bd-ddaccff9a7bd",
+        "guest_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "c8a7994d-02f8-4470-ab56-f588f01cff56",
+        "status": "Available",
+        "created_at": "2023-08-03T23:59:06.132Z",
+        "updated_at": "2023-08-03T12:09:47.308Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "66c27e16-598b-4b54-b919-56ad41f84c02",
+        "status": "Booked",
+        "created_at": "2023-08-04T00:10:51.397Z",
+        "updated_at": "2023-08-03T21:51:16.367Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "56253fa1-ea2c-4997-a5d7-67d167e21214",
+        "status": "In Service",
+        "created_at": "2023-08-04T02:05:55.618Z",
+        "updated_at": "2023-08-04T06:08:56.129Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "819e60c3-a8e9-4aa4-916c-ea15d13d6c85",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-04T07:57:22.649Z",
+        "updated_at": "2023-08-03T12:01:39.938Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8f60d8e8-4f4d-4a04-a582-8e03bcd2a92f",
+        "status": "Out of Service",
+        "created_at": "2023-08-04T11:16:41.111Z",
+        "updated_at": "2023-08-04T08:25:33.180Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "a5daae78-e7c6-4814-aff3-a16371dcafb1",
+        "status": "Confirmed",
+        "created_at": "2023-08-04T06:38:53.827Z",
+        "updated_at": "2023-08-04T05:47:48.629Z",
+        "car_id": "819e60c3-a8e9-4aa4-916c-ea15d13d6c85",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "e6b97d4a-3b10-4fbd-b236-ae401ce09e60",
+        "status": "Pending",
+        "created_at": "2023-08-03T22:28:15.057Z",
+        "updated_at": "2023-08-04T06:39:22.924Z",
+        "car_id": "66c27e16-598b-4b54-b919-56ad41f84c02",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "3f28a1f4-8286-419c-84d4-a1a2beda997b",
+        "status": "Cancelled",
+        "created_at": "2023-08-03T17:29:27.325Z",
+        "updated_at": "2023-08-04T09:00:28.161Z",
+        "car_id": "c8a7994d-02f8-4470-ab56-f588f01cff56",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "2a39348f-dc8a-4b9e-89aa-dd39531d7ba6",
+        "status": "Completed",
+        "created_at": "2023-08-03T12:09:25.545Z",
+        "updated_at": "2023-08-03T20:35:08.587Z",
+        "car_id": "c8a7994d-02f8-4470-ab56-f588f01cff56",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "0bc065c5-f4fa-4755-8195-e5d45a259d95",
+        "status": "On Hold",
+        "created_at": "2023-08-03T22:41:49.137Z",
+        "updated_at": "2023-08-04T09:44:32.081Z",
+        "car_id": "8f60d8e8-4f4d-4a04-a582-8e03bcd2a92f",
+        "guest_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "cc5d7adf-1cc5-4efe-a818-c86b649fb8e1",
+        "status": "Available",
+        "created_at": "2023-08-04T03:32:22.681Z",
+        "updated_at": "2023-08-03T13:10:34.828Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d2c4650f-3f46-471a-badd-06f1f1f5c37d",
+        "status": "Booked",
+        "created_at": "2023-08-04T04:11:34.947Z",
+        "updated_at": "2023-08-03T22:10:52.019Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6dc5512e-b421-4264-963d-6babcd42ed21",
+        "status": "In Service",
+        "created_at": "2023-08-04T08:02:49.703Z",
+        "updated_at": "2023-08-04T04:13:34.751Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1bfd2607-d8bb-475e-9d57-21bec51bbb91",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T16:55:42.556Z",
+        "updated_at": "2023-08-04T10:09:27.374Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "03315908-0f6d-4ca5-a0cc-de66e3a2c719",
+        "status": "Out of Service",
+        "created_at": "2023-08-04T01:36:04.789Z",
+        "updated_at": "2023-08-03T20:15:33.062Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "ba1c929a-a6dd-449f-9f47-f4426b42b233",
+        "status": "Confirmed",
+        "created_at": "2023-08-03T20:24:58.527Z",
+        "updated_at": "2023-08-03T14:33:14.551Z",
+        "car_id": "cc5d7adf-1cc5-4efe-a818-c86b649fb8e1",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "c37af58d-1e71-481e-afba-b4dc4491fde6",
+        "status": "Pending",
+        "created_at": "2023-08-04T01:22:40.923Z",
+        "updated_at": "2023-08-03T23:39:12.351Z",
+        "car_id": "03315908-0f6d-4ca5-a0cc-de66e3a2c719",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "f69666c5-bed0-487e-aa21-f364856d7556",
+        "status": "Cancelled",
+        "created_at": "2023-08-03T23:09:05.517Z",
+        "updated_at": "2023-08-03T21:54:26.485Z",
+        "car_id": "03315908-0f6d-4ca5-a0cc-de66e3a2c719",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "eb717e9f-45d9-4c28-81b6-fa7d52779717",
+        "status": "Completed",
+        "created_at": "2023-08-03T13:48:37.318Z",
+        "updated_at": "2023-08-03T15:02:14.755Z",
+        "car_id": "d2c4650f-3f46-471a-badd-06f1f1f5c37d",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "bdfaf798-4bb4-41b7-9db2-7dab34a78c2e",
+        "status": "On Hold",
+        "created_at": "2023-08-04T02:11:04.037Z",
+        "updated_at": "2023-08-03T12:14:42.566Z",
+        "car_id": "03315908-0f6d-4ca5-a0cc-de66e3a2c719",
+        "guest_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "96ffa03c-bbde-43d1-8a92-eec7e6e2fd14",
+        "status": "Available",
+        "created_at": "2023-08-03T20:14:26.651Z",
+        "updated_at": "2023-08-04T00:46:10.270Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "077853a9-7c17-4375-a796-f9212d039d98",
+        "status": "Booked",
+        "created_at": "2023-08-04T11:17:55.648Z",
+        "updated_at": "2023-08-04T09:56:36.491Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8937f4ac-2abe-4391-a561-ede92266539f",
+        "status": "In Repair",
+        "created_at": "2023-08-03T13:12:07.274Z",
+        "updated_at": "2023-08-03T15:23:16.014Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8d406f65-2355-433c-a2d1-e6ae531f3410",
+        "status": "Out of Service",
+        "created_at": "2023-08-04T00:19:15.575Z",
+        "updated_at": "2023-08-03T20:56:23.385Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "66298aa5-adc5-4821-8ba4-02c8d4a60a44",
+        "status": "Reserved",
+        "created_at": "2023-08-03T14:08:07.242Z",
+        "updated_at": "2023-08-04T00:45:05.316Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "6b058314-f1a8-491f-b629-1d70b56b3a52",
+        "status": "Confirmed",
+        "created_at": "2023-08-03T11:58:02.879Z",
+        "updated_at": "2023-08-04T00:26:49.745Z",
+        "car_id": "66298aa5-adc5-4821-8ba4-02c8d4a60a44",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "9a0549d2-58ac-466c-81e4-ae79b8f54d42",
+        "status": "Pending",
+        "created_at": "2023-08-03T16:19:51.517Z",
+        "updated_at": "2023-08-04T05:27:52.626Z",
+        "car_id": "8d406f65-2355-433c-a2d1-e6ae531f3410",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "7150a972-eb37-4100-94f8-640f4859cbec",
+        "status": "Cancelled",
+        "created_at": "2023-08-04T00:17:47.799Z",
+        "updated_at": "2023-08-03T16:54:34.775Z",
+        "car_id": "96ffa03c-bbde-43d1-8a92-eec7e6e2fd14",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "562428b3-eafd-414c-a148-e94f9d2c2123",
+        "status": "Completed",
+        "created_at": "2023-08-03T18:23:47.753Z",
+        "updated_at": "2023-08-04T04:59:58.701Z",
+        "car_id": "8d406f65-2355-433c-a2d1-e6ae531f3410",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "75b98124-6c5e-4b4a-a475-80629536dde0",
+        "status": "On Hold",
+        "created_at": "2023-08-04T09:00:32.703Z",
+        "updated_at": "2023-08-03T12:58:37.163Z",
+        "car_id": "96ffa03c-bbde-43d1-8a92-eec7e6e2fd14",
+        "guest_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "14f0cb63-8a58-4bb7-8dc8-f50cf6681da2",
+        "status": "Available",
+        "created_at": "2023-08-04T05:27:29.914Z",
+        "updated_at": "2023-08-04T04:29:53.664Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e1de03d8-769b-40bc-9123-7fb23ebf72bc",
+        "status": "Booked",
+        "created_at": "2023-08-03T22:22:42.099Z",
+        "updated_at": "2023-08-04T06:02:32.450Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7e6bc12e-0dbe-4df0-9e3a-28eef7fde8ef",
+        "status": "In Repair",
+        "created_at": "2023-08-03T21:42:10.731Z",
+        "updated_at": "2023-08-04T10:33:43.925Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "564cbcef-226a-42bf-91bf-1fc8d4f785b7",
+        "status": "Out of Service",
+        "created_at": "2023-08-03T16:11:14.718Z",
+        "updated_at": "2023-08-03T14:22:43.384Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8eabf047-0b0f-4dd6-91ce-2b51a6eee46d",
+        "status": "Reserved",
+        "created_at": "2023-08-04T03:45:29.386Z",
+        "updated_at": "2023-08-03T20:36:37.254Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "8e50562d-a47e-4710-9085-2da1919a7e0e",
+        "status": "Confirmed",
+        "created_at": "2023-08-04T06:06:47.726Z",
+        "updated_at": "2023-08-03T12:12:41.909Z",
+        "car_id": "564cbcef-226a-42bf-91bf-1fc8d4f785b7",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "658b405e-a7d6-4f2a-8796-fb5c3f35162c",
+        "status": "Pending",
+        "created_at": "2023-08-03T21:56:32.122Z",
+        "updated_at": "2023-08-04T03:05:24.698Z",
+        "car_id": "8eabf047-0b0f-4dd6-91ce-2b51a6eee46d",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "7cbef8a8-c2b8-4992-999d-01cfada789dc",
+        "status": "Cancelled",
+        "created_at": "2023-08-03T12:28:24.111Z",
+        "updated_at": "2023-08-03T19:54:42.527Z",
+        "car_id": "8eabf047-0b0f-4dd6-91ce-2b51a6eee46d",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "369b7482-0714-4660-8675-4ed9c51bea57",
+        "status": "Completed",
+        "created_at": "2023-08-03T18:19:35.136Z",
+        "updated_at": "2023-08-04T03:43:35.821Z",
+        "car_id": "e1de03d8-769b-40bc-9123-7fb23ebf72bc",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "71caaa57-4f47-404b-b895-7e20d99cc886",
+        "status": "On Hold",
+        "created_at": "2023-08-04T10:40:45.121Z",
+        "updated_at": "2023-08-03T16:55:54.741Z",
+        "car_id": "e1de03d8-769b-40bc-9123-7fb23ebf72bc",
+        "guest_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "1429e6d7-4345-492d-9346-89ff6818b904",
+        "status": "Available",
+        "created_at": "2023-08-03T22:00:18.921Z",
+        "updated_at": "2023-08-03T12:07:14.311Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cfd85606-cd2d-4731-a4d4-ba9b7a945c4b",
+        "status": "Booked",
+        "created_at": "2023-08-03T12:00:10.749Z",
+        "updated_at": "2023-08-03T14:46:24.089Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "55746489-f3ce-4b12-b257-0c1a8634a654",
+        "status": "In Repair",
+        "created_at": "2023-08-04T05:59:23.858Z",
+        "updated_at": "2023-08-04T08:01:48.425Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b39d521d-6b24-4ca2-88a7-1efa0624a5c6",
+        "status": "Out of Service",
+        "created_at": "2023-08-04T09:05:57.035Z",
+        "updated_at": "2023-08-03T17:01:43.153Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3bd4de4c-661e-4ffe-ada1-2c14a3fffa51",
+        "status": "Reserved",
+        "created_at": "2023-08-04T04:51:53.659Z",
+        "updated_at": "2023-08-03T16:15:21.845Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "63d68424-5a82-4775-a542-11ca7199bd6f",
+        "status": "Confirmed",
+        "created_at": "2023-08-03T23:26:17.075Z",
+        "updated_at": "2023-08-04T01:18:24.031Z",
+        "car_id": "55746489-f3ce-4b12-b257-0c1a8634a654",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "140db4a9-00a5-4ce1-b6d7-120ee1f4398d",
+        "status": "Pending",
+        "created_at": "2023-08-03T23:03:06.968Z",
+        "updated_at": "2023-08-03T20:59:25.971Z",
+        "car_id": "55746489-f3ce-4b12-b257-0c1a8634a654",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "6c5cdfcc-9834-4a16-a572-c7fa6d37cae8",
+        "status": "Cancelled",
+        "created_at": "2023-08-04T02:31:01.594Z",
+        "updated_at": "2023-08-03T12:34:35.803Z",
+        "car_id": "cfd85606-cd2d-4731-a4d4-ba9b7a945c4b",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "5afe6cfe-b78f-4305-87b7-7ac69bb98307",
+        "status": "Completed",
+        "created_at": "2023-08-03T22:08:17.142Z",
+        "updated_at": "2023-08-03T18:57:02.708Z",
+        "car_id": "3bd4de4c-661e-4ffe-ada1-2c14a3fffa51",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "850e3412-020e-4fd9-8e2f-f6d79e78e387",
+        "status": "On Hold",
+        "created_at": "2023-08-04T04:59:30.017Z",
+        "updated_at": "2023-08-03T21:00:58.538Z",
+        "car_id": "b39d521d-6b24-4ca2-88a7-1efa0624a5c6",
+        "guest_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "3501b83f-321f-4d2a-9b19-da3755de8890",
+        "status": "Available",
+        "created_at": "2023-08-04T02:42:19.667Z",
+        "updated_at": "2023-08-04T05:41:27.830Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9887aba7-268d-43ef-8935-31c40a39862c",
+        "status": "Booked",
+        "created_at": "2023-08-04T02:48:16.811Z",
+        "updated_at": "2023-08-03T19:15:14.029Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "24d362bf-7c53-4303-8e79-d3de166bafd8",
+        "status": "In Repair",
+        "created_at": "2023-08-04T06:54:24.417Z",
+        "updated_at": "2023-08-03T12:18:21.270Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "db5752b3-0c80-449e-bc87-e24d3f612eeb",
+        "status": "Out of Service",
+        "created_at": "2023-08-03T15:21:22.991Z",
+        "updated_at": "2023-08-04T09:06:27.401Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0afdf617-5bea-419b-ab08-be4812e6fd85",
+        "status": "Reserved",
+        "created_at": "2023-08-03T11:54:52.013Z",
+        "updated_at": "2023-08-04T00:35:40.501Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "aaeab97a-861f-46d7-8714-30d3d07c79a2",
+        "status": "Confirmed",
+        "created_at": "2023-08-03T18:34:27.021Z",
+        "updated_at": "2023-08-03T17:52:42.339Z",
+        "car_id": "24d362bf-7c53-4303-8e79-d3de166bafd8",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "2decde60-cfc2-49e6-bf97-83753d17acc3",
+        "status": "Pending",
+        "created_at": "2023-08-03T22:51:27.765Z",
+        "updated_at": "2023-08-04T08:27:01.907Z",
+        "car_id": "0afdf617-5bea-419b-ab08-be4812e6fd85",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "c88656f9-eaac-480c-abaa-dca5a59e5ff7",
+        "status": "Cancelled",
+        "created_at": "2023-08-03T14:10:10.703Z",
+        "updated_at": "2023-08-03T23:31:55.246Z",
+        "car_id": "0afdf617-5bea-419b-ab08-be4812e6fd85",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "a4f17291-1fc1-4af3-b762-010232c780e9",
+        "status": "Completed",
+        "created_at": "2023-08-04T11:22:23.511Z",
+        "updated_at": "2023-08-03T22:43:47.624Z",
+        "car_id": "db5752b3-0c80-449e-bc87-e24d3f612eeb",
+        "guest_id": "user_entity_pk"
+      },
+      {
+        "id": "cc9ed933-bc55-4716-b75f-1acf3d1631a9",
+        "status": "On Hold",
+        "created_at": "2023-08-03T16:58:52.096Z",
+        "updated_at": "2023-08-04T01:55:05.037Z",
+        "car_id": "db5752b3-0c80-449e-bc87-e24d3f612eeb",
+        "guest_id": "user_entity_pk"
+      }
+    ]
+  }
+]
